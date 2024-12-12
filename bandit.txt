@@ -43,3 +43,27 @@ Used the strings command to extract the human-readable text from data.txt. Speci
 user: bandit10
 pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 Used cat to display data.txt contents, identified and decoded a single base64-encoded string, which revealed the password. 
+
+user: bandit11
+pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+Used the cat command combined with the tr command to reveal the password using subsitituion on the data.txt file.
+
+user: bandit12
+pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+Used a combination of commands including gzip, bxip2, and xxd to iterate through different files to search for the password in a hexdump of a repeatedly compressed file.
+
+user: bandit13
+pass: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+Obtained the password by using a private ssh to log into bandit14 and read its contents. 
+
+user: bandit14
+pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Password acquired by entering the current password on port 30000 via telnet.
+
+user: bandit15
+pass: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+Password acquired similarly to the last one, except using an SSL connection this time.
+
+user: bandit16
+pass: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
